@@ -516,9 +516,6 @@ bool pgt_check_avail(struct vm_info *vm_info)
 		}
 	}
 
-  EMSG("tbl_count : %zu", tbl_count);
-  EMSG("PGT_SIZE : %zu", PGT_CACHE_SIZE);
-
 	return tbl_count <= PGT_CACHE_SIZE;
 }
 
